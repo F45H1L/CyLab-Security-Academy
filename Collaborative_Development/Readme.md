@@ -43,8 +43,8 @@ This revealed three feature branches containing different parts of the flag prin
 Configure Git identity to allow commits during merging:
 
 ```bash
-git config user.name "Fashil"
-git config user.email "fashil@example.com"
+git config user.name "test"
+git config user.email "test@example.com"
 ```
 
 ## 3. Merge Feature Branches
@@ -82,9 +82,9 @@ nano flag.py
 Git conflict markers look like:
 
 ```text
-<<<<<<< HEAD
+HEAD
 =======
->>>>>>> feature-branch
+feature-branch
 ```
 
 These markers indicate conflicting sections of code.
