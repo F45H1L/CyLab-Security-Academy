@@ -4,7 +4,7 @@
 
 **Category:** Reverse Engineering  
 **Difficulty:** Easy  
-**Target:** `xebec.cylabacademy.net:44013`
+**Target:** `xebec.cylabacademy.net:<TARGET-PORT>`
 
 ### 1. Challenge Description
 
@@ -58,7 +58,7 @@ The `win()` function reads the flag and converts every character into its hexade
 Connect to the challenge using Netcat:
 
 ```bash
-nc xebec.cylabacademy.net 44013
+nc xebec.cylabacademy.net <TARGET-PORT>
 ```
 
 Enter the function name:
