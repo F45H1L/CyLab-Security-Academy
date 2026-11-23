@@ -20,7 +20,7 @@ Open the challenge website and inspect its HTML source using `Ctrl + U`.
 The source reveals the following JavaScript variables:
 
 ```javascript
-window.username = "fashil";
+window.username = "admin";
 window.password = "password";
 ```
 
